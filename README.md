@@ -4,28 +4,28 @@ Call two words “adjacent” if you can change one word into the other by addin
 
 ## Examples
 
-hate -> love: hate, have, hove, love
+**hate -> love:** hate, have, hove, love
 
-dogs -> wolves: dogs, does, doles, soles, solves, wolves
+**dogs -> wolves:** dogs, does, doles, soles, solves, wolves
 
-man -> woman: man, ran, roan, roman, woman
+**man -> woman:** man, ran, roan, roman, woman
 
-flour -> flower: flour, lour, dour, doer, dower, lower, flower
+**flour -> flower:** flour, lour, dour, doer, dower, lower, flower
 
 ## Files
 
-* dictionary.txt - Dictionary of words
-* createAdjacencyList.pl - Script to create an adjacency list from the dictionary.  Takes a few hours to run!
-* adjacency.txt - Output of createAdjacencyList.pl.
-* dwalk.pl - Script to walk the adjacency list. You will be prompted for pairs of words.
+* **dictionary.txt** - Dictionary of words
+* **createAdjacencyList.pl** - Script to create an adjacency list from the dictionary.  *Takes a few hours to run!*
+* **adjacency.txt** - Output of createAdjacencyList.pl.
+* **dwalk.pl** - Script to walk the adjacency list. You will be prompted for pairs of words.
 
 ## Usage
 
 All files must remain in the same directory.
 
-As long as adjacency.txt exists, simply run dwalk.pl: *perl dwalk.pl*
+As long as adjacency.txt exists, simply run dwalk.pl: **perl dwalk.pl**
 
-Otherwise, createAdjacencyList.pl must be run first: *perl createAdjacencyList.pl* (Takes a long time!)
+Otherwise, createAdjacencyList.pl must be run first: **perl createAdjacencyList.pl** (Takes a long time!)
 
 ## Notes
 
@@ -33,7 +33,7 @@ Since the solution uses BFS, the shortest list should always be found.
 
 ## Alternative Solution
 
-Creating an adjacency list could be completed much faster than the brute-force method of checking each pair of dictionary words which is used in this solution.  Consider the word "cat".  These are possible adjacent words:
+Creating an adjacency list could be completed much faster than the brute-force method of checking each pair of dictionary words which is used in this solution.  Consider the word **cat**.  These are possible adjacent words:
 
 	*at
 	c*t
